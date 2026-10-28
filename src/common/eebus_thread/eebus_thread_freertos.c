@@ -20,8 +20,10 @@
 
 #include <freertos/FreeRTOS.h>
 #include <freertos/task.h>
+#include <freertos/semphr.h>
 #include <stdint.h>
 #include <string.h>
+#include <stdbool.h>
 
 #include "src/common/api/eebus_thread_interface.h"
 #include "src/common/eebus_errors.h"
